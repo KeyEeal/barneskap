@@ -12,9 +12,9 @@ function App() {
   return (
     <Routes>
       <Route element={<MainLayout />}>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route index element={<LandingPage />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
       </Route>
     </Routes>
   );
