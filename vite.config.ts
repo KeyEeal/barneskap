@@ -12,6 +12,5 @@ export default defineConfig({
   },
   server: {
     allowedHosts: ['.ngrok-free.dev'] // Allows all subdomains like "*.ngrok-free.dev"
-  },
-  base :'/barneskap/'
+  }
 })
