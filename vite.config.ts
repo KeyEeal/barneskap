@@ -5,7 +5,6 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base :'/barneskap/',
     resolve: {
     alias: {
       "@": path.resolve(__dirname, "src")
@@ -13,5 +12,6 @@ export default defineConfig({
   },
   server: {
     allowedHosts: ['.ngrok-free.dev'] // Allows all subdomains like "*.ngrok-free.dev"
-  }
+  },
+  base :'/barneskap/'
 })
