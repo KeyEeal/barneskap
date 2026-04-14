@@ -1,3 +1,5 @@
+This project is licensed under the GNU General Public License v3.0 (GPLv3).
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
